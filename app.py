@@ -7,7 +7,7 @@ import gdown
 import pickle
 
 file_id = "https://drive.google.com/file/d/14RoniihiPwk1BsIjyHaCTeYDwuoQn9OV/view?usp=drive_link"
-gdown.download(f"https://drive.google.com/uc?id={file_id}", "similarity.pkl", quiet=False)
+gdown.download(f"https://drive.google.com/file/d/14RoniihiPwk1BsIjyHaCTeYDwuoQn9OV/view?usp=drive_link", "similarity.pkl", quiet=False)
 
 with open("similarity.pkl", "rb") as f:
     similarity = pickle.load(f)
