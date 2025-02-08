@@ -60,27 +60,6 @@ streamlit run app.py
 
 This will launch the app in your browser.
 
----
-
-## 🌍 Deployment on Render
-### 1️⃣ Create a **requirements.txt** file
-Ensure your `requirements.txt` contains:
-```
-streamlit
-pandas
-requests
-gdown
-pickle5
-```
-
-### 2️⃣ Deploy on Render
-1. Go to [Render](https://render.com/)
-2. Click **New Web Service** → Connect GitHub repository
-3. Set the **Start Command**: `streamlit run app.py`
-4. Click **Deploy**
-
----
-
 ## 📜 License
 This project is open-source and available under the MIT License.
 
